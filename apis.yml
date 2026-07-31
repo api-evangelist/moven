@@ -1,7 +1,24 @@
 aid: moven
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/moven.png
 name: Moven
-description: 'Moven is a company surfaced as a portfolio company of anthemis and added to the API Evangelist
-  network as a stub for enrichment. Sector: fintech. This profile is a lead awaiting the enrichment pipeline.'
+description: 'Moven (Movencorp Newco Inc.) is a New York City fintech founded in 2011 by Brett King and Alex Sion.
+  Originally a direct-to-consumer mobile banking and financial-wellness app, the company pivoted in 2020 to a
+  business-to-business model, licensing its spending-analytics and financial-wellness technology to banks, credit
+  unions, and other fintechs through open APIs and SDKs. Its data-driven engagement modules power companion and
+  challenger-bank experiences such as TD Bank''s MySpend and Westpac''s CashNav. Moven''s API and SDK surface is
+  partner-gated behind a demo/sandbox request rather than a self-serve public developer portal, so no public
+  OpenAPI, reference documentation, or GitHub organization is available for catalog harvesting.'
 url: https://raw.githubusercontent.com/api-evangelist/moven/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,13 +28,36 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Fintech
+- Banking
+- Financial Services
+- Digital Banking
+- Financial Wellness
+- Banking as a Service
+- SDK
+- Analytics
 apis: []
+common:
+- type: Website
+  url: https://www.moven.com/
+- type: About
+  url: https://moven.com/who-we-are/index.html
+- type: Partners
+  url: https://moven.com/partners/index.html
+- type: Support
+  url: https://moven.com/contact-us/index.html
+- type: DomainSecurity
+  url: security/moven-domain-security.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
